@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="estilos/estilo.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <title>Portfolio!</title>
+    </head>
+    <body>
+        <h1>O cruzamento de ruas no Brasil</h1>
+        <h2>A realidade dos pedestres no Brasil</h2>
+        <img src="imagens/cruzamento1.jpg" alt="Minha imagem de teste">
+        <a href="https://www.mozilla.org/pt-BR/about/manifesto/">Mozilla Manifesto</a>
+        <p1>Jogador 1: Chris</p1>
+        <script>
+            const para = document.querySelector('p1');
+        
+        para.addEventListener('click', atualizarNome);
+        
+        function atualizarNome() {
+          var nome = prompt('Insira um novo nome');
+          para.textContent = 'Jogador 1: ' + nome;
+        }
+        </script>
+    </body>
+</html>
